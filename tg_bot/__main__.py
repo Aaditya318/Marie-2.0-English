@@ -132,8 +132,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🕹️SUMMON ME🕹️", url="t.me/{}?startgroup=true".format(bot.username))],
-                     [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/NAZRIYANAZEEMUPDATES"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/NAZRIYANAZEEMSUPPORT")],
-                     [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/MR-JINN-OF-TG/TG-BOT")]])))
+                     [InlineKeyboardButton(text="❤️UPDATES❤️", url="https://t.me/rungram"), InlineKeyboardButton(text="❤️SUPPORT❤️", url="https://t.me/run_gram")],
+                     [InlineKeyboardButton(text="❣️SOURCE CODE❣️", url="https://github.com/Aaditya318/Marie-2.0-English")]])))
     else:
         update.effective_message.reply_text("waked up😏😏😏")
 
